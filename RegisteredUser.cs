@@ -30,24 +30,9 @@ namespace CareerCloud.Pocos
         [DataType(DataType.PhoneNumber, ErrorMessage = "Provided phone number not valid")]
         public string UserPhone { get; set; }
 
-         [PersonalData]
-         [Required]
-         [Display(Name = "Residency Status")]
-         public EnumResidencyStatus ResidencyStatus { get; set; }
-
-        [PersonalData]
-        [Required]
-        [Display(Name = "Gender")]
-        public EnumGender Gender { get; set; }
-
-        [PersonalData]
-        public string LinkedIn { get; set; }
-
-        [PersonalData]
-        public string website { get; set; }
-
+        
         public ICollection<UserSector> userSectors { get; set; }
-        public virtual ApplicantProfile ApplicantProfile { get; set; }
+        
 
     }
 

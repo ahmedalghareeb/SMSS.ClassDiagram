@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CareerCloud.Pocos.CompanyDescription" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQACAAAAgAAAAAAAAEAAAAgAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>CompanyDescription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CareerCloud.Pocos.CompanyJob" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABCAACAAAAAAAAAAAAAEAACBAAAACgAAAQABAAgAAA=</HashCode>
+      <FileName>CompanyJob.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CompanyJobDescriptions" />
+      <Property Name="CompanyJobEducations" />
+      <Property Name="CompanyJobSkills" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CareerCloud.Pocos.CompanyJobDescription" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAACAACAAAAAAAAAAAAAAEAABAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompanyJobDescription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CareerCloud.Pocos.CompanyJobEducation" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAAAAAAAAAAAAAAAAIBAACAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>CompanyJobEducation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CareerCloud.Pocos.CompanyJobSkill" Collapsed="true">
+    <Position X="1" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAACAACAAAAAAIAAAAAAAAAIBAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompanyJobSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CareerCloud.Pocos.CompanyLocation" Collapsed="true">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAACAAAAAAAAIIAAAGAAAAAAAAAACAAIABgAAAAI=</HashCode>
+      <FileName>CompanyLocation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="city" />
+      <Property Name="country" />
+      <Property Name="province" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CareerCloud.Pocos.CompanyProfile" Collapsed="true">
+    <Position X="8" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAACAAAAIAAAAAAAgAgAAAQAAAAAAAAgBAABAAAA=</HashCode>
+      <FileName>CompanyProfile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="CompanyDescriptions" />
+      <Property Name="CompanyJobs" />
+      <Property Name="CompanyLocations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CareerCloud.Pocos.Province" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAgAAAAAAAAACAAAIQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Province.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CareerCloud.Pocos.Country" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CareerCloud.Pocos.City" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACgAAAAAgAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

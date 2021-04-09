@@ -17,7 +17,7 @@
   <Class Name="CareerCloud.Pocos.ApplicantProfile" Collapsed="true">
     <Position X="10.75" Y="3.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAACAACAAAAAAAAIIAAACAAACAIAAACCAAYQAgAQAII=</HashCode>
+      <HashCode>AAACAACAAAAAQACIIIAACAAACAIAAACCAAYQAgAQIYI=</HashCode>
       <FileName>ApplicantProfile.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -88,12 +88,9 @@
   <Class Name="CareerCloud.Pocos.RegisterUser" Collapsed="true">
     <Position X="11" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAEgAAACAQACAAIAAAAAAAAAAAAAAAAgAAAAAIAg=</HashCode>
+      <HashCode>AAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAg=</HashCode>
       <FileName>RegisteredUser.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="ApplicantProfile" />
-    </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="userSectors" />
     </ShowAsCollectionAssociation>

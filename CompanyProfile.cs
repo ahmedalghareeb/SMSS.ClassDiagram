@@ -11,8 +11,6 @@ namespace CareerCloud.Pocos
     {
         [Key]
         public int Id { get; set; }
-        [Column("Registration_Date")]
-        public DateTime RegistrationDate { get; set; }
         [Column("Company_Website")]
         public string CompanyWebsite { get; set; }
         [Column("Contact_Phone")]

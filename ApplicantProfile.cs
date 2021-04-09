@@ -29,6 +29,23 @@ namespace CareerCloud.Pocos
         [NotMapped]
         public Byte[] TimeStamp { get; set; }
 
+        
+        [Required]
+        [Display(Name = "Residency Status")]
+        public EnumResidencyStatus ResidencyStatus { get; set; }
+
+        
+        [Required]
+        [Display(Name = "Gender")]
+        public EnumGender Gender { get; set; }
+
+        
+        public string LinkedIn { get; set; }
+
+       
+        public string website { get; set; }
+
+
         public virtual ICollection<ApplicantEducation> ApplicantEducations { get; set; }
         public virtual ICollection<ApplicantJobApplication> ApplicantJobApplications { get; set; }
   
@@ -39,6 +56,8 @@ namespace CareerCloud.Pocos
         public virtual City city { get; set; }
         public virtual Country country { get; set; }
         public virtual Province province { get; set; }
+
+        public virtual RegisterUser user { get; set; }
     }
 
 
