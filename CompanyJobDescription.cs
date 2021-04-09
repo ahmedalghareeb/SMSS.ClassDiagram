@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace CareerCloud.Pocos
+namespace SMSS.ClassDiagram
 {
     [Table ("Company_Jobs_Descriptions")]
     public class CompanyJobDescription 

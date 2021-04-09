@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CareerCloud.Pocos
+namespace SMSS.ClassDiagram
 {
     public class Country
     {

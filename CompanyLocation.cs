@@ -5,14 +5,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Dynamic;
 using System.Text;
 
-namespace CareerCloud.Pocos
+namespace SMSS.ClassDiagram
 {
     [Table("Company_Locations")]
     public class CompanyLocation 
     {
         [Key]
-        public Guid Id { get; set; }
-        public Guid Company { get; set; }
+        public int Id { get; set; }
+        public int Company { get; set; }
         [Column("Country_Code")]
         public int CountryCode { get; set; }
         [Column("State_Province_Code")]
