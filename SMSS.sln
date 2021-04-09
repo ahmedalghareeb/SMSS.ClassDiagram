@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSS.ClassDiagram", "SMSS.ClassDiagram.csproj", "{EBB70D01-FC44-4610-B2A2-143C7D332B7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB70D01-FC44-4610-B2A2-143C7D332B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB70D01-FC44-4610-B2A2-143C7D332B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB70D01-FC44-4610-B2A2-143C7D332B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB70D01-FC44-4610-B2A2-143C7D332B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCC9C8C9-C014-434D-A345-56554B5A5E4C}
+	EndGlobalSection
+EndGlobal
