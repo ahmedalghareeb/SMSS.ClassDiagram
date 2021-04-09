@@ -14,8 +14,8 @@
       <FileName>ApplicantJobApplication.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CareerCloud.Pocos.ApplicantProfile" Collapsed="true">
-    <Position X="10.75" Y="3.5" Width="2" />
+  <Class Name="CareerCloud.Pocos.ApplicantProfile">
+    <Position X="12.5" Y="2.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAACAACAAAAAQACIIIAACAAACAIAAACCAAYQAgAQIYI=</HashCode>
       <FileName>ApplicantProfile.cs</FileName>
@@ -24,6 +24,7 @@
       <Property Name="city" />
       <Property Name="country" />
       <Property Name="province" />
+      <Property Name="user" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="ApplicantEducations" />
