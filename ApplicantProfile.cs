@@ -60,5 +60,25 @@ namespace CareerCloud.Pocos
         public virtual RegisterUser user { get; set; }
     }
 
+    public enum EnumResidencyStatus
+    {
+        [Display(Name = "Canadian Citizen")]
+        CanadianCitizen = 1,
+        [Display(Name = "Canada PR Holder")]
+        CanadaPRHolder,
+        [Display(Name = "Open Work Permit")]
+        OpenWorkPermit,
+        [Display(Name = "US Citizen")]
+        USCitizen
+    }
+
+    public enum EnumGender
+    {
+        Male = 1,
+        Female,
+        Other
+
+    }
+
 
 }

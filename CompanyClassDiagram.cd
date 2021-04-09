@@ -55,9 +55,12 @@
   <Class Name="CareerCloud.Pocos.CompanyProfile" Collapsed="true">
     <Position X="8" Y="0.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAGAACAAAAIAAAAAAAgAgAAAQAAAAAAAAgBAABAAAA=</HashCode>
+      <HashCode>AAAGAACAAAAIAAAAAAAgAgAAAAAAAAAAAAgBAABAAQA=</HashCode>
       <FileName>CompanyProfile.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="user" />
+    </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="CompanyDescriptions" />
       <Property Name="CompanyJobs" />
@@ -83,6 +86,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAACgAAAAAgAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
       <FileName>City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CareerCloud.Pocos.RegisterUser" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAg=</HashCode>
+      <FileName>RegisteredUser.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
